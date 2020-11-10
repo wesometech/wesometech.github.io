@@ -13,16 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: "기술블로그"
+email: admin@wesome.co.kr
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+  위썸에서 제공하는 서비스들과 신기술을 설명하는 사이트입니다.
+# github_username: wesometech
 minimal_mistakes_skin: default
 search: true
+logo: "/assets/images/logo.png"
 
 # Build settings
 markdown: kramdown
@@ -31,7 +29,10 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: "Asia/Seoul" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+locale: "ko-KR" # https://docs.microsoft.com/en-us/previous-versions/commerce-server/ee825488(v=cs.20)?redirectedfrom=MSDN
+
+google_site_verification: "rwozHFd92xU4P08v2tVrh8gVy4_BAy1ErIHf6WSCbJM"
 
 include:
   - _pages
@@ -58,34 +59,29 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name: "wesometech"
+  avatar: "/assets/images/avatar.png"
+  bio: "Enjoy the Ride"
+  location: "서울 구로구 디지털로"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "http://www.wesome.co.kr"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/wesometech"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      url: "http://gitlab.wesome.co.kr:10080"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/wesometech"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      url: "http://gitlab.wesome.co.kr:10080"
 
 defaults:
   # _posts
