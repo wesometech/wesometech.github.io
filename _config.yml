@@ -21,6 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 minimal_mistakes_skin: default
 search: true
 logo: "/assets/images/logo.png"
+url: "https://wesometech.github.io"
 
 # Build settings
 markdown: kramdown
@@ -70,18 +71,15 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/wesometech"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      url: "http://gitlab.wesome.co.kr:10080"
 
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/wesometech"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      url: "http://gitlab.wesome.co.kr:10080"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "http://www.wesome.co.kr"
 
 defaults:
   # _posts
@@ -91,7 +89,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: true
       related: true
   # _pages

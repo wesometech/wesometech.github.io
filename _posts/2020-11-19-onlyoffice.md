@@ -2,17 +2,17 @@
 # classes: wide
 toc: true
 title: "OnlyOffice"
-date: 2020-11-01T00:00:00-00:00
+date: 2020-11-19
 categories:
   - blog
 tags:
   - onlyoffice
-  - opensource
-  - 협업
-  - 문서
+  - open source
+  - 온라인 문서 편집기
+  - 오피스
 ---
 
-# OnlyOffice with WESOME
+# ONLYOFFICE with WESOME
 
 안녕하세요. 이번에는 온라인 문서편집기에 대해서 알아 보겠습니다.
 
@@ -24,17 +24,15 @@ tags:
 
 ## 온라인 문서 편집기란?
 
-온라인 문서 편집기란 말 그대로 웹 기반의 문서 편집기이다.
+온라인 문서 편집기란 말 그대로 웹 기반의 문서 편집기입니다. 
 
-왜 기존의 PC 기반의 문서 편집에서 Web 기반의 문서 편집으로 바뀌게 되었을까?
+현재 많이 사용되고 있는 온라인 문서 편집기능을 제공하는 서비스는 어떤것들이 있을까요?
 
-iot, html5, 기술의 발전 등등등.
-
-보안성, 공유, 등등
+구글 드라이드(Google Drive), 오피스 온라인(Office Online), 네이버 오피스, 오픈 오피스(Open Office)등 다양한 기업에서 온라인 문서 편집기를 제공하고 있습니다.
 
 
 
-점점더 많은 발전이 있을 것이다.
+
 
 ## 다양한 온라인 문서 편집기
 
@@ -44,7 +42,11 @@ MS Web Office, Libre Office, Open Office, OnlyOffice 등 수 많은 오피스가
 
 
 
-### 위썸에서 선택한 에디터 OnlyOffice
+## ONLYOFFICE
+
+![logo_default](2020-11-19-onlyoffice.assets/logo_default.png)
+
+
 
 MS Office는 PC의 문서편집기에서 독보적인 위치를 차지한다. 대부분의 회사에서는 문서의 경우 ms office를 사용하여 사내의 문서들을 관리한다. 자신의 바탕화면을 한번 확인해 봐라. 과연 회사에서 사용하는 문서의 종류를 확인하면 MS Office를 사용한 문서들이 대부분일 것이다. Word, Presentation, Excel, 대부분의 문서들은 MS 오피스의 문서 포멧을 사용하여 작업된다. 
 
@@ -56,6 +58,10 @@ MS Office는 PC의 문서편집기에서 독보적인 위치를 차지한다. �
 
 
 
+> **ONLYOFFICE 설명**
+>
+> OnlyOffice by Ascensio System SIA는 Microsoft Office 및 OpenDocument 파일 형식과 호환성이 높은 텍스트 문서, 스프레드시트 및 프리젠테이션의 온라인 편집자로 구성된 강력한 오피스 제품군을 제공합니다. ONLYOFFICE는 사용자에게 더 많은 팀 워크플로우를 보장하는 여러 편집 도구와 협업 기능을 제공하며 웹 솔루션 내의 복잡한 형식과 객체를 사용하여 원활한 작업을 수행할 수 있습니다.
+
 
 
 OnlyOffice는 
@@ -66,9 +72,4 @@ OnlyOffice만의 장점
 
 OnlyOffice만의 단점
 
-
-
-
-
-### OnlyOffice 만의 잠점
 
